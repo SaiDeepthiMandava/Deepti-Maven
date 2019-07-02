@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mySuite" duration-ms="72612" started-at="2019-07-02T10:08:33Z" finished-at="2019-07-02T10:09:45Z">
+    <groups>
+    </groups>
+    <test name="functional" duration-ms="72612" started-at="2019-07-02T10:08:33Z" finished-at="2019-07-02T10:09:45Z">
+      <class name="secondPack.FirstBuild">
+        <test-method status="PASS" signature="vL()[pri:0, instance:secondPack.FirstBuild@30c7da1e]" name="vL" duration-ms="0" started-at="2019-07-02T15:39:45Z" finished-at="2019-07-02T15:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vL -->
+      </class> <!-- secondPack.FirstBuild -->
+      <class name="myPack.Deepti">
+        <test-method status="PASS" signature="addEmployee()[pri:0, instance:myPack.Deepti@340f438e]" name="addEmployee" duration-ms="64181" started-at="2019-07-02T15:38:33Z" finished-at="2019-07-02T15:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:myPack.Deepti@340f438e]" name="verifyLogin" duration-ms="8390" started-at="2019-07-02T15:39:37Z" finished-at="2019-07-02T15:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- myPack.Deepti -->
+      <class name="myPack.SecondBuild">
+        <test-method status="PASS" signature="verigyLogin()[pri:0, instance:myPack.SecondBuild@7c30a502]" name="verigyLogin" duration-ms="0" started-at="2019-07-02T15:39:45Z" finished-at="2019-07-02T15:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verigyLogin -->
+        <test-method status="PASS" signature="verigyLogout()[pri:0, instance:myPack.SecondBuild@7c30a502]" name="verigyLogout" duration-ms="0" started-at="2019-07-02T15:39:45Z" finished-at="2019-07-02T15:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verigyLogout -->
+      </class> <!-- myPack.SecondBuild -->
+    </test> <!-- functional -->
+  </suite> <!-- mySuite -->
+</testng-results>
